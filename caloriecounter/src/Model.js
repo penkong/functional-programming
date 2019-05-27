@@ -1,3 +1,6 @@
+
+//like model of mongoose for db
+
 const initModel = {
   description: '',
   calories: 0,

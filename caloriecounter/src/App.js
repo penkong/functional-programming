@@ -2,6 +2,8 @@ import { h, diff, patch } from 'virtual-dom';
 import createElement from 'virtual-dom/create-element';
 
 //impure code
+
+//like helper func and loader 
 function app(initModel, update, view, node) {
   let model = initModel;
   let currentView = view(dispatch, model);

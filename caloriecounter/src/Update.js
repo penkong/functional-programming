@@ -1,3 +1,8 @@
+
+
+
+//like reducer
+
 function update(msg,model){
   return model;
 }
